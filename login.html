@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login/SignUp</title>
-    <link rel="stylesheet" href="login.css" type="text/css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <style>
-        body{
-            background-color: #d8efe7;
-        }
-    </style>
-</head>
-<body>
-    <div id="container">
-        <div class="left-section">
-            <h1 class="sign-in">Sign In</h1>
+    <link rel="stylesheet" href="login.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section section">
+        <h1 class="sign-in">Sign In</h1>
         <div class="icons">
-                <div class="shape">
+          <div class="icon-container">
             <i class="bi bi-facebook"></i>
-        </div>
-            <span class="spaceaftericon" style="padding-left: 10px;"></span>
-            <div class="shape">
+          </div>
+
+          <div class="icon-container">
             <i class="bi bi-whatsapp"></i>
-            </div>
-            <span class="spaceaftericon" style="padding-left: 10px;"></span>
-            <div class="shape">
+          </div>
+
+          <div class="icon-container">
             <i class="bi bi-google"></i>
-        </div>
-            <span class="spaceaftericon" style="padding-left: 10px;"></span>
+          </div>
         </div>
         <p class="email">Or Sign in with E-mail Address</p>
         <div class="forms">
-            <input type="text" id="email" name="email" placeholder="  Email">
-            <input type="text" id="email" name="password" placeholder="  Password">
-        
-       <a href="https://www.nationalgeographic.com/animals/article/animal-primate-drill-conservation-biology-mandrill" class="forgotpasswod">Forgot your password..?</a>
-       <input type="button" value="SIGN IN" id="submit" class="button">
-       </div>
+          <input
+            type="text"
+            class="textfield"
+            name="email"
+            placeholder="Email"
+          />
+          <input
+            type="text"
+            class="textfield"
+            name="password"
+            placeholder="Password"
+          />
+
+          <a
+            href="https://www.nationalgeographic.com/animals/article/animal-primate-drill-conservation-biology-mandrill"
+            class="forgot-passwod"
+            >Forgot your password..?</a
+          >
+          <!-- <input type="button" value="SIGN IN" class="submit" /> -->
+          <button type="button" class="submit-button">SIGN IN</button>
         </div>
-        <div class="right-section">
-            <h1 id="create">Create,<br>Account!</h1>
-            <p>Sign up if you don't have an account</p>
-            <input type="button" id="Signup" value="SIGN UP" >
-        </div>
+      </div>
+      <div class="right-section section">
+        <h1 class="create">Create,<br />Account!</h1>
+        <p>Sign up if you don't have an account</p>
+        <!-- <input type="button" id="Signup" value="SIGN UP" /> -->
+        <button type="button" class="signup-button">SIGN UP</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
